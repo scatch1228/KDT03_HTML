@@ -1,0 +1,91 @@
+body {
+    height:100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(228, 188, 188);
+    background-image:url("./img/good.png");
+}
+
+header,main,footer {
+    width: 800px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header {
+    margin: 25px;
+
+    background-color: black;
+    color: wheat;
+}
+
+header > h1 {
+
+}
+
+ul {
+    list-style: none;
+}
+
+main a {
+    color: black;
+}
+
+main a:hover {
+    color:wheat;
+}
+
+main a:after {
+    color: black
+}
+
+main li {
+    border-bottom: 1px solid grey;
+
+    padding: 10px;
+}
+
+main li:hover {
+    background-color:rgb(228, 188, 188);
+}
+
+footer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: end;
+
+}
+
+footer > ul > li {
+    /* 위아래마진, 좌우마진 */
+    margin: 5px 20px; 
+
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+footer a {
+    display: inline-flex;
+    padding: 5px;
+    background-color: black;
+    border-radius: 15px;
+    color: wheat;
+}
+
+footer a:hover {
+    background-color: rgb(228, 188, 188);
+}

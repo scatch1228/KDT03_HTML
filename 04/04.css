@@ -1,0 +1,51 @@
+main {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.btDiv {
+    display: flex;
+}
+
+div.inputDiv {
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    padding: 5px;
+}
+
+input[readonly] {
+    background-color: grey;
+}
+
+button, input[type=button], input[type=reset] {
+    padding: 10px; 
+    margin: 5px 15px;
+    
+    border-radius: 10px;
+    border: 1px;
+
+    background-color: brown;
+    color: white;
+}
+
+button:hover, input[type=button]:hover, input[type=reset]:hover {
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+#msg {
+    width: 80%;
+    height: 50px;  
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+span {
+    color: brown;
+}
